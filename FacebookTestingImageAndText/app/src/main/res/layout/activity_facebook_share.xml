@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weeworld.facebooktestingimageandtext.app.FacebookShareActivity"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height"
+            android:background="@color/com_facebook_blue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/abc_action_bar_default_height"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large"
+                android:text="@string/title_post_text"
+                android:id="@+id/textTitle"
+                android:layout_weight="0.75"
+                android:textColor="@color/com_facebook_usersettingsfragment_connected_text_color"
+                android:layout_gravity="left"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/abc_action_bar_default_height"
+                android:text="@string/post_button_text"
+                android:id="@+id/button_post"
+                android:layout_weight="0.25"
+                android:background="@color/com_facebook_blue"
+                android:textColor="@color/com_facebook_usersettingsfragment_connected_text_color"
+                android:textAppearance="@style/TextAppearance.AppCompat.Base.Widget.PopupMenu.Large"
+                android:layout_gravity="right"
+                android:onClick="postButtonPressed"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="top"
+                android:layout_gravity="left">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imagePreview_container"
+                    android:src="@drawable/icon_facebook_activity"
+                    android:layout_gravity="center_horizontal|top"
+                    android:scaleType="fitStart"
+                    android:padding="10dp"
+                    android:contentDescription="@string/facebook_post_content_desc" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/postText"
+                android:background="@android:color/white"
+                android:text="@string/facebook_default_text"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:gravity="left|top"
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

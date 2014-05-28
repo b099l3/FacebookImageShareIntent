@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="bolts">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/facebook/libs/bolts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/FacebookTestingImageAndText/facebook/unspecified/libs/bolts.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

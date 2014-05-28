@@ -23,7 +23,8 @@
             android:theme="@style/FullscreenTheme">
             <!--Using icon from facebook app as of 23/05/14-->
             <intent-filter>
-                <action android:name="android.intent.action.SEND"/>
+                <!--Custom action to prevent this from going outside of this app-->
+                <action android:name="facebooktestingimageandtext.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="text/plain"/>
                 <data android:mimeType="image/*"/>

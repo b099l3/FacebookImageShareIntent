@@ -171,7 +171,7 @@ public class FacebookShareActivity extends Activity {
         Session session = Session.getActiveSession();
         final Uri uri = (Uri) mExtras.get(Intent.EXTRA_STREAM);
         final String extraText = mPostTextView.getText().toString();
-        if (session.isPermissionGranted("publish_actions") || true)
+        if (session.isPermissionGranted("publish_actions"))
         {
             Bundle param = new Bundle();
 

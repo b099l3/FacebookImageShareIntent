@@ -15,7 +15,7 @@
     <!--TEST APP ID-->
     <!--<string name="app_id">ADD IN YOUR OWN APP ID HERE</string>-->
     <!--LIVE APP ID-->
-    <!--<string name="app_id">ADD IN YOUR OWN APP ID HERE</string>-->
+    <string name="app_id">ADD IN YOUR OWN APP ID HERE</string>
     <string name="title_facebook_login">Facebook Login</string>
     <string name="facebook_post_content_desc">Image to share</string>
     <string name="app_package_name">com.weeworld.facebooktestingimageandtext.app</string>

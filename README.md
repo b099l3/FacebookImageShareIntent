@@ -112,3 +112,5 @@ intent.putExtra(Intent.EXTRA_STREAM, path);
 If you get CLOSED_LOGIN_FAILED sessions check your setting in https://developers.facebook.com/
 ScreenShots
 -----------
+
+![screenshot1](https://www.dropbox.com/s/vq65beea9ed6aii/Screenshot%202014-05-29%2013.23.29.png)

@@ -113,4 +113,4 @@ If you get CLOSED_LOGIN_FAILED sessions check your setting in https://developers
 ScreenShots
 -----------
 
-![screenshot1](https://www.dropbox.com/s/vq65beea9ed6aii/Screenshot%202014-05-29%2013.23.29.png)
+![screenshot1](http://imgur.com/K2VVxSH)

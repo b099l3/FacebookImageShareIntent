@@ -20,6 +20,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facebook.FacebookRequestError;
 import com.facebook.HttpMethod;
@@ -111,6 +112,7 @@ public class FacebookShareActivity extends Activity {
 
     public void postButtonPressed(View view)
     {
+        Toast.makeText(this, "Sharing to Facebook", Toast.LENGTH_SHORT).show();
         mPendingAction = true;
         Session session = Session.getActiveSession();
         if (session == null) {

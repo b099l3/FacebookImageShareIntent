@@ -22,7 +22,7 @@ Adding to your own app
 1. Copy FacebookShareActivty to your project
  1. Import your R file from your project
    ```
-   import com.weeworld.XXX.app.R;
+   import com.YOURAPPPACKAGENAME.app.R;
    ```
  2. Copy activity_facebook_share.xml from res/layout into res/layout in your project.
 2. Add the Facebook SDK
@@ -50,7 +50,7 @@ Adding to your own app
     <!--LIVE APP ID-->
     <string name="app_id">ADD_YOUR_OWN_APP_ID_HERE</string>
     <string name="facebook_post_content_desc">Image to share</string>
-    <string name="app_package_name">com.weeworld.slapsticker.app</string>
+    <string name="app_package_name">com.YOURAPPPACKAGENAME.app</string>
     ```
     
 4. Add this activity and meta-data to your AndroidMaifest.xml 
@@ -112,3 +112,5 @@ intent.putExtra(Intent.EXTRA_STREAM, path);
 If you get CLOSED_LOGIN_FAILED sessions check your setting in https://developers.facebook.com/
 ScreenShots
 -----------
+
+![screenshot1](http://i.imgur.com/K2VVxSH.png)
